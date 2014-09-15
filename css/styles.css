@@ -1,0 +1,339 @@
+.link.front1, .link.front2 {
+  margin: 80px;
+  width: 280px;
+  position: absolute; }
+  .link.front1 .ear, .link.front2 .ear {
+    float: left;
+    background-color: #fc8342;
+    height: 40px;
+    width: 40px;
+    position: relative; }
+    .link.front1 .ear.left, .link.front2 .ear.left {
+      margin-left: 60px;
+      top: 80px;
+      left: -40px; }
+      .link.front1 .ear.left:before, .link.front2 .ear.left:before {
+        content: "";
+        background-color: #fc8342;
+        height: 40px;
+        width: 20px;
+        position: absolute;
+        top: -40px; }
+      .link.front1 .ear.left:after, .link.front2 .ear.left:after {
+        content: "";
+        background-color: #fc8342;
+        width: 40px;
+        height: 20px;
+        position: absolute;
+        bottom: -20px;
+        left: 20px; }
+    .link.front1 .ear.right, .link.front2 .ear.right {
+      top: 80px;
+      left: 0; }
+      .link.front1 .ear.right:before, .link.front2 .ear.right:before {
+        content: "";
+        background-color: #fc8342;
+        height: 40px;
+        width: 20px;
+        position: absolute;
+        top: -40px;
+        left: 20px; }
+      .link.front1 .ear.right:after, .link.front2 .ear.right:after {
+        content: "";
+        background-color: #fc8342;
+        width: 40px;
+        height: 20px;
+        position: absolute;
+        bottom: -20px;
+        right: 20px; }
+  .link.front1 .head, .link.front2 .head {
+    float: left; }
+    .link.front1 .head .hat, .link.front2 .head .hat {
+      background-color: #baf853;
+      height: 40px;
+      width: 120px;
+      position: relative;
+      left: -20px; }
+      .link.front1 .head .hat:before, .link.front2 .head .hat:before {
+        content: "";
+        background-color: #baf853;
+        height: 40px;
+        width: 20px;
+        position: absolute;
+        top: 20px;
+        left: -20px; }
+      .link.front1 .head .hat:after, .link.front2 .head .hat:after {
+        content: "";
+        background-color: #baf853;
+        height: 40px;
+        width: 20px;
+        position: absolute;
+        top: 20px;
+        right: -20px; }
+    .link.front1 .head .hair, .link.front2 .head .hair {
+      background-color: #e55d21;
+      height: 40px;
+      width: 120px;
+      position: relative;
+      left: -20px; }
+      .link.front1 .head .hair:before, .link.front2 .head .hair:before {
+        content: "";
+        background-color: #e55d21;
+        height: 60px;
+        width: 20px;
+        position: absolute;
+        top: 20px;
+        left: -20px; }
+      .link.front1 .head .hair:after, .link.front2 .head .hair:after {
+        content: "";
+        background-color: #e55d21;
+        height: 60px;
+        width: 20px;
+        position: absolute;
+        top: 20px;
+        right: -20px; }
+    .link.front1 .head .face, .link.front2 .head .face {
+      background-color: #fc8342;
+      height: 100px;
+      width: 80px;
+      position: relative; }
+      .link.front1 .head .face:before, .link.front2 .head .face:before {
+        content: "";
+        background-color: #fc8342;
+        width: 20px;
+        height: 80px;
+        position: absolute;
+        left: -20px;
+        top: 0; }
+      .link.front1 .head .face:after, .link.front2 .head .face:after {
+        content: "";
+        background-color: #fc8342;
+        width: 20px;
+        height: 80px;
+        position: absolute;
+        right: -20px;
+        top: 0; }
+      .link.front1 .head .face .eye, .link.front2 .head .face .eye, .link.front1 .head .face .eyebrow, .link.front2 .head .face .eyebrow {
+        width: 20px;
+        height: 20px; }
+      .link.front1 .head .face .eye, .link.front2 .head .face .eye {
+        background-color: #e55d21;
+        position: absolute;
+        top: 20px; }
+        .link.front1 .head .face .eye.left, .link.front2 .head .face .eye.left {
+          left: 0; }
+        .link.front1 .head .face .eye.right, .link.front2 .head .face .eye.right {
+          right: 0; }
+      .link.front1 .head .face .eyebrow, .link.front2 .head .face .eyebrow {
+        background-color: #baf853;
+        position: absolute;
+        top: 0px; }
+        .link.front1 .head .face .eyebrow.left, .link.front2 .head .face .eyebrow.left {
+          left: 0; }
+        .link.front1 .head .face .eyebrow.right, .link.front2 .head .face .eyebrow.right {
+          right: 0; }
+      .link.front1 .head .face .mouth, .link.front2 .head .face .mouth {
+        background-color: #e55d21;
+        width: 40px;
+        height: 20px;
+        position: absolute;
+        bottom: 20px;
+        left: 20px; }
+        .link.front1 .head .face .mouth.open, .link.front2 .head .face .mouth.open, .link.front1 .head .face .mouth:hover, .link.front2 .head .face .mouth:hover {
+          height: 40px;
+          bottom: 0; }
+  .link.front1 .body, .link.front2 .body {
+    background-color: #baf853;
+    width: 200px;
+    height: 120px;
+    position: relative;
+    top: 140px;
+    left: 40px;
+    z-index: -1; }
+    .link.front1 .body:after, .link.front2 .body:after {
+      content: "";
+      background-color: #baf853;
+      width: 180px;
+      height: 20px;
+      position: absolute;
+      bottom: -20px;
+      left: 0;
+      z-index: -1; }
+    .link.front1 .body .belt, .link.front2 .body .belt {
+      background-color: #e55d21;
+      width: 200px;
+      height: 20px;
+      position: absolute;
+      left: 0;
+      bottom: 20px; }
+      .link.front1 .body .belt:before, .link.front2 .body .belt:before {
+        content: "";
+        height: 60px;
+        width: 60px;
+        background-color: #e55d21;
+        position: absolute;
+        left: 60px;
+        top: -20px; }
+      .link.front1 .body .belt:after, .link.front2 .body .belt:after {
+        content: "";
+        height: 20px;
+        width: 20px;
+        background-color: #baf853;
+        position: absolute;
+        left: 80px;
+        top: 0; }
+  .link.front1 .foot, .link.front2 .foot {
+    background-color: #e55d21;
+    width: 60px; }
+    .link.front1 .foot.left, .link.front2 .foot.left {
+      height: 40px;
+      position: relative;
+      top: 160px;
+      left: 60px;
+      z-index: -1; }
+    .link.front1 .foot.right, .link.front2 .foot.right {
+      height: 20px;
+      position: relative;
+      top: 120px;
+      left: 160px;
+      z-index: -1; }
+  .link.front1 .arm, .link.front2 .arm {
+    background-color: #e55d21;
+    height: 80px;
+    width: 60px;
+    position: relative;
+    left: 220px;
+    top: -20px; }
+    .link.front1 .arm:before, .link.front2 .arm:before {
+      content: "";
+      background-color: #e55d21;
+      width: 20px;
+      height: 40px;
+      position: absolute;
+      left: 20px;
+      top: -40px; }
+    .link.front1 .arm .hand, .link.front2 .arm .hand {
+      background-color: #fc8342;
+      width: 20px;
+      height: 60px; }
+      .link.front1 .arm .hand.leftside, .link.front2 .arm .hand.leftside {
+        position: absolute;
+        left: 0;
+        bottom: 0; }
+        .link.front1 .arm .hand.leftside:before, .link.front2 .arm .hand.leftside:before {
+          content: "";
+          background-color: #fc8342;
+          height: 20px;
+          width: 20px;
+          position: absolute;
+          top: 20px;
+          left: -20px; }
+      .link.front1 .arm .hand.rightside, .link.front2 .arm .hand.rightside {
+        position: absolute;
+        left: 20px;
+        bottom: -20px; }
+        .link.front1 .arm .hand.rightside:before, .link.front2 .arm .hand.rightside:before {
+          content: "";
+          background-color: #fc8342;
+          height: 20px;
+          width: 20px;
+          position: absolute;
+          top: 20px;
+          right: -20px; }
+  .link.front1 .shield, .link.front2 .shield {
+    float: left;
+    background-color: #e55d21;
+    width: 120px;
+    height: 100px;
+    position: relative; }
+    .link.front1 .shield:before, .link.front2 .shield:before {
+      content: "";
+      background-color: #e55d21;
+      width: 80px;
+      height: 20px;
+      position: absolute;
+      left: 20px;
+      top: -20px; }
+    .link.front1 .shield:after, .link.front2 .shield:after {
+      content: "";
+      background-color: #fc8342;
+      width: 80px;
+      height: 20px;
+      position: absolute;
+      left: 20px;
+      bottom: -20px; }
+    .link.front1 .shield .cross, .link.front2 .shield .cross {
+      background-color: #fc8342;
+      width: 20px;
+      height: 80px;
+      position: absolute;
+      left: 40px; }
+      .link.front1 .shield .cross:before, .link.front2 .shield .cross:before {
+        content: "";
+        background-color: #fc8342;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 20px;
+        left: -20px; }
+      .link.front1 .shield .cross:after, .link.front2 .shield .cross:after {
+        content: "";
+        background-color: #fc8342;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 20px;
+        right: -20px; }
+    .link.front1 .shield .side, .link.front2 .shield .side {
+      background-color: #fc8342;
+      width: 20px;
+      height: 80px;
+      position: absolute;
+      bottom: 0;
+      right: 0; }
+.link.front2 .shield {
+  margin-left: 20px; }
+.link.front2 .foot.left {
+  height: 0; }
+.link.front2 .foot.right {
+  height: 40px;
+  top: 160px; }
+.link.front2 .arm {
+  height: 80px;
+  width: 20px;
+  top: -40px;
+  left: 240px; }
+  .link.front2 .arm:before {
+    height: 20px;
+    width: 20px;
+    top: 20px;
+    left: -20px; }
+  .link.front2 .arm .hand.leftside {
+    height: 40px; }
+    .link.front2 .arm .hand.leftside:before {
+      display: none; }
+  .link.front2 .arm .hand.rightside {
+    display: none; }
+.link.front2 .body .belt:before {
+  left: 80px; }
+.link.front2 .body .belt:after {
+  left: 100px; }
+.link.back1 {
+  margin: 80px;
+  width: 280px;
+  position: absolute; }
+  .link.back1 .head {
+    float: left; }
+    .link.back1 .head .hat {
+      background-color: #baf853;
+      width: 160px;
+      height: 80px;
+      position: relative; }
+      .link.back1 .head .hat:before {
+        content: "";
+        width: 120px;
+        height: 20px;
+        background-color: #baf853;
+        position: absolute;
+        top: -20px;
+        left: 20px; }
